@@ -1,26 +1,16 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    font-family: ;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+/* .custom-img {
+    background-image: url("https://img.freepik.com/premium-photo/digital-cyberspace-data-network-connections_24070-1044.jpg?w=2000");
+} */
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.custom-img {
+    background-image: url("https://images.pexels.com/photos/10050564/pexels-photo-10050564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
