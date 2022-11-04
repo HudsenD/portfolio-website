@@ -15,7 +15,7 @@ const Projects = () => {
 
            <ProjectItem title='Subscription Manager' backgroundImg={doordashImg} projectUrl='/property' githubUrl='https://github.com/HudsenD/hardhat-subscription-manager-service' description='Solidity'/>
 
-           <ProjectItem title='Portfolio Website' backgroundImg={portfolioImg} projectUrl='/' githubUrl='https://github.com/HudsenD/hardhat-subscription-manager-service' description='NextJS'/>
+           <ProjectItem title='Portfolio Website' backgroundImg={portfolioImg} projectUrl='/' githubUrl='https://github.com/HudsenD/portfolio-website' description='NextJS'/>
 
         </div>
         </div>
