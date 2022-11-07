@@ -1,9 +1,19 @@
 # Portfolio Website
 
-This is a website to display different projects I've made
+This is a website to display different projects I've made and help potential employers
+learn more about me. The website provides different ways to contact me, links to code of
+the projects displayed and a breif description of myself. I used NextJS and TailwindCSS to
+create this clean, interactive website.
 
-## Technologies
+## Tech Used
 
-Project is made with:
+-   NextJS
+-   TailwindCSS
 
--NextJS
+## Live Website
+
+https://hudsen-durst.vercel.app/
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
