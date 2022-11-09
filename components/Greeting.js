@@ -17,7 +17,7 @@ const Greeting = () => {
                     <div className="grid gap-1 md:grid-cols-2">
                         <Link href={"https://www.linkedin.com/in/hudsen-durst-465407208/"}>
                             <p className="py-3 text-lg font-bold text-center text-white bg-black rounded-lg shadow-lg cursor-pointer shadow-gray-400">
-                                Linkedin
+                                LinkedIn
                             </p>
                         </Link>
                         <Link href={"https://github.com/HudsenD"}>

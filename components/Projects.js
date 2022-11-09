@@ -15,7 +15,7 @@ const Projects = () => {
                         backgroundImg={doordashImg}
                         projectUrl="https://decentralized-doordash.vercel.app/"
                         githubUrl="https://github.com/HudsenD/Trustless-Doordash-Payments"
-                        description="Full-stack, removes ability for Doordash to steal Delivery Driver tips"
+                        description="Full-stack, removes ability for Doordash to steal delivery driver tips"
                     />
 
                     <ProjectItem
