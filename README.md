@@ -12,7 +12,7 @@ create this clean, interactive website.
 
 ## Live Website
 
-https://hudsen-durst.vercel.app/
+https://www.hudsendurst.com/
 
 ## License
 
