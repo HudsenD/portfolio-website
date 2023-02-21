@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css"
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <div className={`${styles.container} bg-gray-300`}>
             <Head>
                 <title>Portfolio App</title>
                 <meta name="description" content="Hudsen's Portfolio" />

@@ -5,7 +5,7 @@ import Link from "next/link"
 
 const Greeting = () => {
     return (
-        <div className="max-w-[1240px] justify-center w-full h-auto shadow-xl shadow-gray-400 rounded-xl mx-auto py-10">
+        <div className="max-w-[1240px] justify-center w-full h-auto shadow-xl shadow-gray-400 rounded-xl mx-auto py-10 bg-white">
             <div className="max-w-[1240px] mx-auto px-28 py-5 grid md:grid-cols-2 gap-1">
                 <div className="relative flex w-48 h-48 overflow-hidden rounded-full">
                     <Image src={hudsenImg} layout="fill" objectFit="cover" alt="Picture of Hudsen" priority />
