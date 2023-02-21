@@ -2,8 +2,8 @@ import React from "react"
 import doordashImg from "../public/projects/Doordashwebsite.png"
 import ProjectItem from "./ProjectItem"
 import portfolioImg from "../public/projects/portfolio.png"
-import DexV2Img from "../public/projects/DexV2.png"
 import LendingImg from "../public/projects/Lending.png"
+import SolventSwap from "../public/projects/SolventSwap2.png"
 
 const Projects = () => {
     return (
@@ -12,6 +12,13 @@ const Projects = () => {
                 <p className="mb-2 text-xl font-bold tracking-widest uppercase">Projects</p>
                 <h2 className="mb-2">What I've Built</h2>
                 <div className="grid gap-8 md:grid-cols-2">
+                    <ProjectItem
+                        title="SolventSwap"
+                        backgroundImg={SolventSwap}
+                        projectUrl="https://solventswap.vercel.app/"
+                        githubUrl="https://github.com/HudsenD/LP-dex-frontend"
+                        description="Enables users to create liquidity pools and trade between ERC-20 tokens"
+                    />
                     <ProjectItem
                         title="Decentralized Doordash"
                         backgroundImg={doordashImg}
@@ -25,13 +32,6 @@ const Projects = () => {
                         projectUrl=""
                         githubUrl="https://github.com/HudsenD/Lending-contract"
                         description="Allows users to take overcollateralized loans. Website coming soon"
-                    />
-                    <ProjectItem
-                        title="Decentralized Exchange"
-                        backgroundImg={DexV2Img}
-                        projectUrl=""
-                        githubUrl="https://github.com/HudsenD/LP-dex"
-                        description="Allows users to trade between ERC-20 tokens. Website coming soon"
                     />
                     <ProjectItem
                         title="Portfolio Website"
