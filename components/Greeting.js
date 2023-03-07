@@ -1,6 +1,6 @@
 import Image from "next/image"
 import React from "react"
-import hudsenImg from "../public/projects/hudsen.jpg"
+import hudsenImg from "../public/projects/HDCrop.jpg"
 import Link from "next/link"
 
 const Greeting = () => {
