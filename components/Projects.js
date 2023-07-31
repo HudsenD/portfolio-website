@@ -16,7 +16,7 @@ const Projects = () => {
                     <ProjectItem
                         title="ChainTrust"
                         backgroundImg={ChainTrust}
-                        projectUrl="https://chaintrust-frontend-w7oy.vercel.app/"
+                        projectUrl="https://chaintrust-frontend-cay1.vercel.app/"
                         githubUrl="https://github.com/HudsenD/chaintrust-contracts"
                         description="Simplify wealth management with Trust Funds utilizing ERC-6551"
                     />
