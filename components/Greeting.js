@@ -12,7 +12,7 @@ const Greeting = () => {
                 </div>
                 <div className="py-8">
                     <h1 className="text-4xl font-bold text-center ">Hi, I'm Hudsen Durst</h1>
-                    <h2 className="p-2 font-mono text-xl font-bold text-center">Blockchain Developer</h2>
+                    <h2 className="p-2 font-mono text-xl font-bold text-center">Software Developer</h2>
 
                     <div className="grid gap-1 md:grid-cols-2">
                         <Link href={"https://www.linkedin.com/in/hudsen-durst-465407208/"}>
